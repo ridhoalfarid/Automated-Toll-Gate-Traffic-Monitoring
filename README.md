@@ -1,0 +1,1 @@
+This project is a traffic monitoring system designed to automatically detect and count vehicles using a public CCTV stream. Leveraging background subtraction and contour analysis techniques from the OpenCV library, the system identifies each moving vehicle. The final count of vehicles entering and exiting the toll gate is then displayed in real-time on the video feed.
