@@ -9,10 +9,10 @@ cnt_down = 0
 
 # Membuka cctv
 # Definisikan URL stream
-url_cctv_yogya = 'https://pantau.margamandala.co.id:3443/merak/exit/exit.m3u8'
+url_cctv = 'https://pantau.margamandala.co.id:3443/merak/exit/exit.m3u8'
 
 # Membuka video dari stream online
-cap = cv2.VideoCapture(url_cctv_yogya)
+cap = cv2.VideoCapture(url_cctv)
 
 
 # Menampilkan properti video
